@@ -1,6 +1,6 @@
 <footer class="site-footer h-card">
-  <a href="{{ "/" | relative_url }}">
-    <div class="event selected">
+  <a href="{{ site.baseurl }}/">
+    <div class="event">
       <svg xmlns="http://www.w3.org/2000/svg" height="25" width="27" viewBox="0 0 17 19">
           <g>
             <path d="M17,19H0V2H17ZM1.22,17.83H15.8V3.25H1.22Z"/>
@@ -13,7 +13,7 @@
     </div>
   </a>
 
-  <a href="{{ "/" | relative_url }}graphic-students.html">
+  <a href="{{ site.baseurl }}/graphic-students.html">
     <div class="students">
       <svg xmlns="http://www.w3.org/2000/svg" height="25" width="45" viewBox="0 0 28 16">
         <g>
@@ -30,7 +30,7 @@
     </div>
   </a>
 
-  <a href="{{ "/" | relative_url }}explore.html">
+  <a href="{{ site.baseurl }}/explore.html">
     <div class="explore">
       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 17 17">
         <g>
@@ -44,3 +44,6 @@
   </a>
 
 </footer>
+
+
+<script src="{{ "assets/js/main.js" | relative_url }}">></script>

@@ -1,0 +1,15 @@
+---
+title: Students
+layout: grads
+---
+
+<ul>
+  {% for student in site.data.students %}
+    <li>
+      <img src={{ student.img }} alt={{ student.name }} />
+      <a href="https://{{ student.url }}">
+        {{ student.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
