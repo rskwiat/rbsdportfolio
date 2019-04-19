@@ -1,12 +1,17 @@
 ---
 title: Students
 layout: grads
+header: Graphic Design
 ---
 
-<ul>
+<ul class="student-grid">
   {% for student in site.data.students %}
     <li>
-      <img src={{ student.img }} alt={{ student.name }} />
+      <img 
+        class="img-responsive" 
+        src=assets/images/{{ student.img }} 
+        alt={{ student.name }}
+      />
       <a href="https://{{ student.url }}">
         {{ student.name }}
       </a>
