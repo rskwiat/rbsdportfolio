@@ -1,0 +1,20 @@
+---
+title: Advertising Students
+layout: grads
+header: Adversiting Design
+---
+
+<ul class="student-grid">
+  {% for student in site.data.ad-students %}
+    <li>
+      <img 
+        class="img-responsive" 
+        src=assets/images/{{ student.img }} 
+        alt={{ student.name }}
+      />
+      <a href="https://{{ student.url }}">
+        {{ student.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
