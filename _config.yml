@@ -23,7 +23,6 @@ baseurl: "/rbsdportfolio" # the subpath of your site, e.g. /blog
 url: "https://rskwiat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 data_dir: data
-source: src
 
 # Build settings
 markdown: kramdown

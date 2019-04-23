@@ -1,0 +1,8 @@
+- name: Adversiting Student
+  url: twitter.com
+  img: student/mzevallos.jpg
+
+- name: Non Adversiting Student
+  url: twitter.com
+  img: student/mzevallos.jpg
+
