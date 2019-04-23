@@ -1,0 +1,38 @@
+.site-footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 8rem;
+  @include media-query(768px) {
+    flex-direction: row;
+  }
+  a {
+    display: inline-block;
+    flex: 1;
+    background: #000;
+    color: #333;
+    padding: 2rem 0;
+    text-decoration: none;
+    &:hover p,
+    &:hover div {
+      color: #fff;
+      fill: currentColor;
+    }
+    .active {
+      color: #fff;
+    }
+    div {
+      transition: all 450ms ease-in-out;
+      color: #333;
+      fill: currentColor;
+      p {
+        transition: all 450ms ease-in-out;
+        font-size: 1.4rem;
+        margin: 1rem 0 0;
+      }
+    }
+  }
+}
